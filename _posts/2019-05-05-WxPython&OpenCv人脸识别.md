@@ -4,7 +4,7 @@ title: WxPython&OpenCv人脸识别
 subtitle: WxPython&OpenCv人脸识别简单结合
 date: 2019-05-05
 author: Bend
-header-img: img/post-bg-debug.jpg
+header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - WxPython
