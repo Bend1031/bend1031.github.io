@@ -15,6 +15,10 @@ tags:
 
 >博客环境：Github Pages & Jekyll
 
+<audio id="audio" controls="" preload="none">
+<source id="mp3" src="http://m10.music.126.net/20190810114133/360a4b8bbb147fb16cee6161f2d3e872/ymusic/225a/0b65/aa03/90387f0b1f4558c67fe72c77f39e5b62.mp3">
+</audio>
+
 昨天在写学习笔记的时候，在书写公式时使用的是 Markdown 自带的 LaTex 语法，但是在网页实际预览的时候发现公式的显示并不正常😢，出现了 LaTex 的源码，影响了阅读效果，为了解决这个问题，进行了一番搜索，成功解决问题。😊
 
 解决的方法是在静态页面中挂载 Javascript 代码，我用到的是 [MathJax](https://www.mathjax.org) 。
