@@ -1,6 +1,6 @@
 ---
 layout:     post
-title: 在GitHub Pages中渲染 LaTex 公式
+title: 在 GitHub Pages 中渲染 LaTex 公式
 subtitle: 让博客支持公式显示
 date: 2019-08-10
 author: Bend
@@ -24,15 +24,14 @@ tags:
 解决的方法是在静态页面中挂载 Javascript 代码，我用到的是 [MathJax](https://www.mathjax.org) 。
 官网的介绍是：
 
->**Beautiful math in all browsers**
->A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.
+>**Beautiful math in all browsers** A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.
 
 下面介绍步骤
 
-1.首先找到博客的目录下的 **head.html**
+1. 首先找到博客的目录下的 **head.html**
 ![目录](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20190810092912.png)
 
-2.编辑_includes 目录下的 head.html 文件，在 \<head> 和 \</head> 中间的任意位置加上官方提供的脚本链接：
+2. 编辑_includes 目录下的 head.html 文件，在 \<head> 和 \</head> 中间的任意位置加上官方提供的脚本链接：
 
 ```html
 <head>
@@ -55,10 +54,10 @@ tags:
 
 上面的三个脚本分别实现了：
 
-1.整行公式自动编号
+1. 整行公式自动编号
 
-2.将两个单美元符号 $ 中间的内容看作行内数学公式（若文本内容中美元符号出现频率较高，建议禁用这一脚本
+2. 将两个单美元符号 $ 中间的内容看作行内数学公式（若文本内容中美元符号出现频率较高，建议禁用这一脚本
 
-3.从 mathjax 官网挂载脚本
+3. 从 mathjax 官网挂载脚本
 
 Thanks!🤣
