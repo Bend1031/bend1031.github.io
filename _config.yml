@@ -1,4 +1,5 @@
 # Site settings
+encoding: UTF-8
 title: Bend Blog
 SEOTitle: Bend的博客 | Bend's Blog
 header-img: img/post-bg-home.jpg
@@ -52,7 +53,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
+  math_engine: mathjax
 
 
 # 评论系统
