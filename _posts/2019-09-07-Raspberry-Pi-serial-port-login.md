@@ -55,10 +55,10 @@ USB TO TTL 模块：
 连线方法：
 
 | USB TO TTL 模块 | 树莓派管脚 |
-| --------------- | ---------- |
 | TXD             | RXD        |
 | RXD             | TXD        |
 | GND             | GND        |
+
 也就是只需要树莓派上的 6，8，10 三个管脚。
 
 然后在电脑上的设备管理器查看端口
@@ -68,7 +68,9 @@ USB TO TTL 模块：
 这里我们可以看到是 COM3
 
 然后打开 Putty
+
 ![](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20190907150236.png)
+
 最后点 Open，进入后**先回车**，就可以输入用户名和密码了。
 
 默认账号名 pi 密码：raspberry。
