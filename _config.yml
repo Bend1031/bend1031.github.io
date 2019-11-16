@@ -6,14 +6,14 @@ header-img: img/post-bg-home.jpg
 email: czy1145554053@gmail.com
 description: "言止"
 keyword: "Blog,Study"
-url: "http://bend1031.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://bend1031.github.io" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Bend1031/Bend1031.github.io" # you code repository
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Harder"
-sidebar-avatar: /img/about-Bend.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-Bend.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 plugins: [jekyll-paginate]
 
@@ -21,29 +21,20 @@ plugins: [jekyll-paginate]
 RSS: false
 # weibo_username:     bend1031
 #zhihu_username:     bend1031
-github_username:    bend1031
+github_username: bend1031
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
 #twitter_username:   bend1031
-
-
-
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-
-
-
-
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -52,9 +43,8 @@ anchorjs: true                          # if you want to customize anchor. check
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM # use Github Flavored Markdown !important
   math_engine: mathjax
-
 
 # 评论系统
 # Disqus（https://disqus.com/）
@@ -62,14 +52,13 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: a09818c15200bf72e3b1                            #生成的clientID
-  clientSecret: 85197a095ea5473d0f3ce88312b4019180b2bf0b    #生成的clientSecret
-  repo: bend1031.github.io    #仓库名称
-  owner: bend1031    #github用户名
+  enable: true #是否开启Gitalk评论
+  clientID: a09818c15200bf72e3b1 #生成的clientID
+  clientSecret: 85197a095ea5473d0f3ce88312b4019180b2bf0b #生成的clientSecret
+  repo: bend1031.github.io #仓库名称
+  owner: bend1031 #github用户名
   admin: bend1031
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
 
 # 统计
 
@@ -81,26 +70,15 @@ ba_track_id: dbb2333e5b2da8417e723cab1c085149
 #ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
 #ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
-
-
-
-
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
-
-
+featured-tags: true # 是否使用首页标签
+featured-condition-size: 1 # 相同标签数量大于这个数，才会出现在首页
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
 # Friends
-friends: [
-    {
-        #title: "简书",
-        #href: "https://www.jianshu.com/"
-    },
-]
+friends: [{}]
+#title: "简书",
+#href: "https://www.jianshu.com/"
