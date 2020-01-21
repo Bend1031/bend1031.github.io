@@ -28,7 +28,7 @@ task :post do
     post.puts "header-img: img/post-bg-universe.jpg"
     post.puts "catalog: true"
     post.puts "tags:"
-    post.puts "-"
+    post.puts "- "
     post.puts "---"
   end
 end # task :post
