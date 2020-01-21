@@ -44,7 +44,7 @@ tags:
 
 1. 首先**点击左下角**（New Page）新建一个页面（Page）, Page 在 Notion 中可以看作是最小的基本单元。
 
-2. 选择 Database 下的 Table ，我们的书籍管理是是要先形成一个数据库（即 Database），这里面有我们所有要管理的书。然后我们用 表格类型来将其显示出来，即第一张图片所显示的那样。
+2. 选择 Database 下的 Table ，我们的书籍管理是要先形成一个数据库（即 Database），这里面有我们所有要管理的书。然后我们用 表格类型来将其显示出来，即第一张图片所显示的那样。
 
 3. 对于每一本书，都有我们想显示的信息。例如作者、类型和阅读时间等等。我们先打开其中一项。
 ![](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20200121154342.png)
