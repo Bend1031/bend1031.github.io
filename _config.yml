@@ -52,7 +52,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true #是否开启Gitalk评论
+  enable: false #是否开启Gitalk评论
   clientID: a09818c15200bf72e3b1 #生成的clientID
   clientSecret: 85197a095ea5473d0f3ce88312b4019180b2bf0b #生成的clientSecret
   repo: bend1031.github.io #仓库名称
