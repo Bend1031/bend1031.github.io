@@ -21,7 +21,7 @@ tags:
 ## 1.1 下载 Raspbian 镜像
 
 官网地址 [Raspbian 镜像](https://www.raspberrypi.org/downloads/raspbian/)
-![5093_1.png](https://ddd.cat/images/2019/02/11/5093_1.png)
+![5093_1.png](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410093659.png)
 有多个版本可选，可按自身需要自己选择，这里我们选择 **Raspbian Stretch with desktop** 这个版本。
 ## 1.2 烧录系统
 
@@ -40,10 +40,10 @@ tags:
 
 把 TF 卡插入读卡器后连接电脑，PC 会识别出这张卡，并有一个盘符。
 打开 Win32 Disk
-![Snipaste_2019-04-17_17-34-30.png](https://ddd.cat/images/2019/04/17/Snipaste_2019-04-17_17-34-30.png)
+![Snipaste_2019-04-17_17-34-30.png](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410093700.png)
 
 点击下面一行右边的蓝色图标，选择镜像。这里选择上一步解压缩得到的 img 文件
-![Snipaste_2019-04-17_17-41-31.png](https://ddd.cat/images/2019/04/17/Snipaste_2019-04-17_17-41-31.png)
+![Snipaste_2019-04-17_17-41-31.png](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410093701.png)
 
 然后在设备处选择你插入的 TF 卡，最后点击写入或 write, 在弹出的对话框中点击确认，写入过程有进度条指示，软件最后一行也会提示当前的写入速度，等待写入完成。
 写入完成后，软件会弹窗提示写入成功 “Write Successful”。点击 “OK”，关掉 Win32 Disk Imager，然后安全弹出 TF 卡。

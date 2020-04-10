@@ -13,8 +13,8 @@ tags:
 临近过年，在家放假做咸鱼，同时也不忘小小折腾一下，用 Notion 做了个记录读书和电影的东西。
 
 首先我们先来看看效果
-![Notion 书架](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20200121145534.png)
-![书籍看板](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20200121145629.png)
+![Notion 书架](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410092817.png)
+![书籍看板](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410092818.png)
 
 可以看到还是挺美观的。然后我来 ~~具体~~（简单） 说下是怎么做出来的。
 
@@ -47,21 +47,21 @@ tags:
 2. 选择 Database 下的 Table ，我们的书籍管理是要先形成一个数据库（即 Database），这里面有我们所有要管理的书。然后我们用 表格类型来将其显示出来，即第一张图片所显示的那样。
 
 3. 对于每一本书，都有我们想显示的信息。例如作者、类型和阅读时间等等。我们先打开其中一项。
-![](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20200121154342.png)
+![](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410092819.png)
 新建的数据库默认只有三个属性（Name、Tags、Files），需要我们自行修改。
-![](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20200121154542.png)
+![](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410092820.png)
 点击 Add a Property 新建一个属性，名称我们可以自己修改，对于每一个属性，也有对应的类型，如文本，日期，多选等等。
-![](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20200121154907.png)
+![](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410092821.png)
 
 4. 全部新建完后。我的显示是这样的
 
-![](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20200121155116.png)
+![](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410092822.png)
 其中特别注意的是 Days 和 Onboard 两个属性，都是公式类型。公式的代码这里不给出，你可以直接将我分享的页面作为模板，直接复制到自己的页面里，直接修改每本书即可。
 
 ### 看板显示
 
 在标题下方 Add a view 添加看板显示
-![](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20200121160146.png)
+![](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410092823.png)
 
 - 之后在右上角 Group by 选择 Status（即之前设置的属性），
 - 设置 Filter（筛选），选择 Onboard 属性，
@@ -69,4 +69,4 @@ tags:
 - Sort（排序）设置为：Date -> Descending
 
 这里是我的 [模板](https://www.notion.so/50e850400f684f9ea4ce682ab6171be7?v=866f71363d6a4edbbac104c029d69c27), 点击之后选择右上角 Duplicate 即可复制，然后粘贴到自己的页面即可。
-![书籍看板](https://raw.githubusercontent.com/Bend1031/PictureBed/master/img/20200121145629.png)
+![书籍看板](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410092818.png)
