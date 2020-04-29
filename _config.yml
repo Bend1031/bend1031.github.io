@@ -7,7 +7,7 @@ email: czy1145554053@gmail.com
 description: "言止"
 keyword: "Blog,Study"
 url: "http://bend1031.github.io" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/blog" # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Bend1031/Bend1031.github.io" # you code repository
 
 # Sidebar settings
