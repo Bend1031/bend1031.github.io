@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 全平台免费的密码管理
-date: 2020-05-16
+date: 2020-07-20
 author: Bend
 header-img: img/post-bg-password.jpg
-catalog: false
+catalog: true
 tags:
 - Password
 ---
