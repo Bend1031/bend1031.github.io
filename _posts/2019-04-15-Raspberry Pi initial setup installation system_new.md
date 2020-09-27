@@ -1,6 +1,6 @@
 ---
 layout:     post
-title: 树莓派初始设置之安装系统
+title: 树莓派初始设置
 subtitle: 刚得到的树莓派怎么玩呢？
 date: 2019-04-15
 author: Bend
@@ -23,6 +23,7 @@ tags:
 官网地址 [Raspbian 镜像](https://www.raspberrypi.org/downloads/raspbian/)
 ![5093_1.png](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/20200410093659.png)
 有多个版本可选，可按自身需要自己选择，这里我们选择 **Raspbian Stretch with desktop** 这个版本。
+
 ## 1.2 烧录系统
 
 ### 1.2.1 下载 Win32 DiskImager
@@ -51,12 +52,54 @@ tags:
 ## 1.3 重装系统 (**第一次装请忽略此步**)
 
 如果你的 TF 卡已经安装过系统，或者系统内部已经损坏了，需要重新来安装系统，就必须进行正确的格式化，否则无论安装无数次也是没用的。这一步是给第二次装系统的同志的，第一次装可以忽略此步。
+
 ### 1.3.1 下载空映像
 
-链接：[空映像](https://pan.baidu.com/s/1BaQO0JItnUJN4IIEoaUo4w) 密码：qvdd
+链接：[空映像](https://pan.baidu.com/s/1p3DpBOquNuVZgoEJ1_8gag) 密码：enjm
 
 ### 1.3.2 烧录
 
 重复 1.2.3 过程，写入好后，从电脑上拔出 TF 卡，再次插入电脑里。 然后打开 TF 卡就会自动提示你格式化。点击开始就行了，然后就会格式化。完成后再拔出电脑 再次插入就能重新使用了。
 
 到此我们装系统的第一步就大致完成了。
+
+## 开启 ssh
+
+若是没有屏幕，利用无线网，则要开启 ssh，与配置 wifi。
+
+1. boot 分区中新建 ssh。
+2. 在 boot 分区中新建 wpa_supplicant.conf 文件，内容如下
+
+```bash
+country=CN
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network={
+ ssid="wi-fi name here"
+ psk="wi-fi password here"
+ key_mgmt=WPA-PSK
+ priority=1
+}
+```
+
+## 连接树莓派
+
+略
+
+**注意如果连接 5G wifi 可能存在信道干扰，建议先用 2.4G wifi 连接**。
+
+## 开启 VNC
+
+远程配置树莓派的指令为
+
+```bash
+sudo raspi-config
+```
+
+选择 5 Interfacing Options-VNC-yes
+
+开启 VNC
+
+```bash
+vncserver
+```
