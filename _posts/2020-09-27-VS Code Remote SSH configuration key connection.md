@@ -19,13 +19,13 @@ tags:
 ssh-keygen -t rsa
 ```
 
-生成的密钥对默认保存在当前用户的根目录下的。ssh 目录中
+生成的密钥对默认保存在当前用户的根目录下的.ssh 目录中
 
 ```bash
 C:\Users\username\.ssh
 ```
 
-## 上传公钥 
+## 上传公钥
 
 id_rsa.pub 上传至 Linux 服务器用户目录
 
