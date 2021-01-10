@@ -3,7 +3,7 @@ layout: post
 title: Zotero 利用插件 Mdnotes 与 Obsidian 联动
 date: 2021-01-10
 author: Bend
-header-img: img/post-bg-debug.png
+header-img: img/post-bg-zotero-obsidian.jpg
 catalog: false
 tags:
 - Zotero
