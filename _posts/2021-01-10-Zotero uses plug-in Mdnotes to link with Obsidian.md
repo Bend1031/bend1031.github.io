@@ -49,7 +49,7 @@ tags:
 
 接着是里面的内容
 
-```
+```md
 {{title}}
 
 ## Metadata
