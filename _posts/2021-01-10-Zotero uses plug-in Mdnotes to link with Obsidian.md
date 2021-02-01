@@ -39,7 +39,7 @@ tags:
 
 `Export directory` 选择你文献笔记要放置的地方，记得选择 Obsidian 库的路径。
 
-`Template folder` 选择笔记模板 ** 文件夹 ** 的位置，利用这个笔记模板，可以自定义自己的文献笔记样式。
+`Template folder` 选择笔记模板 **文件夹** 的位置，利用这个笔记模板，可以自定义自己的文献笔记样式。
 
 在这个文件夹下有这么个 md 文件：
 
@@ -80,14 +80,13 @@ tags:
 
 ## Conclusions
 
-## 单词与句型
 ```
 
 其中用两个大括号包裹起来的是占位符，他的作用就是从 Zotero 文献中选取对应信息，放入我们的文献笔记中，这个地方也是我们可以自定义的地方。
 
 ## 创建笔记方法
 
-在 Zotero 选中一篇文献条目 (** 不是文献对应的 pdf！**)，右键，出现菜单，选中 `Create Mdnotes file`。
+在 Zotero 选中一篇文献条目 (**不是文献对应的pdf！**)，右键，出现菜单，选中 `Create Mdnotes file`。
 
 ![image-20210110171445492](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/image-20210110171445492.png)
 
@@ -103,6 +102,6 @@ tags:
 
 ## 自定义模板
 
-若是要自定义模板，可前往 (https://argentinaos.com/zotero-mdnotes/docs/placeholders/#item-placeholders) 和（https://www.zotero.org/support/kb/item_types_and_fields ）查看还有什么占位符可用。
+若是要自定义模板，可前往 (<https://argentinaos.com/zotero-mdnotes/docs/placeholders/#item-placeholders>) 和（https://api.zotero.org/itemFields?pprint=1 ）查看还有什么占位符可用。
 
 注意，使用 `{{}}`,mdnotes 会自动生成格式，若是想要不带格式的话，请使用 `%()`。
