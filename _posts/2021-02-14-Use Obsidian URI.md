@@ -4,7 +4,7 @@ title: 使用 Obsidian URI
 date: 2021-02-14
 author: Bend
 header-img: img/post-bg-debug.png
-catalog: false
+catalog: true
 tags:
 - Obsidian
 ---
