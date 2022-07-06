@@ -11,7 +11,10 @@ tags:
 ---
 > [Mdnotes](https://github.com/argenos/zotero-mdnotes)  是为 Zotero 创建 Markdown 笔记的一个插件。
 >
-> Github [最新下载链接](https://github.com/argenos/zotero-mdnotes/releases/download/0.1.2/mdnotes-0.1.2.xpi)
+> Github [最新下载链接](https://github.com/argenos/zotero-mdnotes/releases)
+
+打开网页后选择最新版本的下载即可
+![download page](https://cdn.bend1031.top/img/20220706151659.png)
 
 ## 安装 Mdnotes 插件
 
@@ -102,6 +105,6 @@ tags:
 
 ## 自定义模板
 
-若是要自定义模板，可前往 (<https://argentinaos.com/zotero-mdnotes/docs/placeholders/#item-placeholders>) 和（https://api.zotero.org/itemFields?pprint=1 ）查看还有什么占位符可用。
+若是要自定义模板，可前往 (<https://argentinaos.com/zotero-mdnotes/docs/placeholders/#item-placeholders>) 和（<https://api.zotero.org/itemFields?pprint=1> ）查看还有什么占位符可用。
 
 注意，使用 `{{}}`,mdnotes 会自动生成格式，若是想要不带格式的话，请使用 `%()`。
