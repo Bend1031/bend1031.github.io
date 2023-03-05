@@ -91,7 +91,7 @@ tags:
 
 ## 创建笔记方法
 
-在 Zotero 选中一篇文献条目 (**不是文献对应的pdf！**)，右键，出现菜单，选中 `Create Mdnotes file`。
+在 Zotero 选中一篇文献条目 (**不是文献对应的 pdf！**)，右键，出现菜单，选中 `Create Mdnotes file`。
 
 ![image-20210110171445492](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/image-20210110171445492.png)
 
@@ -99,7 +99,7 @@ tags:
 
 ![image-20210110171741731](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/image-20210110171741731.png)
 
-在对应的文献条目下出现了一个.md 链接，双击打开，在 Obsidian 显示如下：
+在对应的文献条目下出现了一个。md 链接，双击打开，在 Obsidian 显示如下：
 
 <img src="https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/image-20210110171946301.png" alt="image-20210110171946301" style="zoom: 67%;" />
 
@@ -107,6 +107,6 @@ tags:
 
 ## 自定义模板
 
-若是要自定义模板，可前往 (<https://argentinaos.com/zotero-mdnotes/docs/placeholders/#item-placeholders>) 和（<https://api.zotero.org/itemFields?pprint=1> ）查看还有什么占位符可用。
+若是要自定义模板，可前往 [Mdnotes 文档](https://argentinaos.com/zotero-mdnotes/docs/advanced/placeholders#placeholders>) 和 [Zotero api](https://api.zotero.org/itemFields?pprint=1) 查看还有什么占位符可用。
 
-注意，使用 `{% raw %}{{}}{% endraw %}`,mdnotes 会自动生成带有格式的内容，若是想要不带格式的话，请使用 `%()`替代模板内容中的`{% raw %}{{}}{% endraw %}`。
+注意，使用 `{% raw %}{{}}{% endraw %}` mdnotes 会自动生成带有格式的内容，若是想要不带格式的话，请使用 `%()`替代模板内容中的`{% raw %}{{}}{% endraw %}`。
