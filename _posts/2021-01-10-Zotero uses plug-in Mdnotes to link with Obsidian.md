@@ -48,11 +48,12 @@ tags:
 
 ![image-20210110170742198](https://cdn.jsdelivr.net/gh/Bend1031/PictureBed/img/image-20210110170742198.png)
 
-`Mdnotes Default Template. md` 是模板的名字，一定不要修改名字。
+`Mdnotes Default Template.md` 是模板的名字，一定不要修改名字。
 
 接着是里面的内容
 
 ```md
+{% raw %}
 {{title}}
 
 ## Metadata
@@ -82,6 +83,7 @@ tags:
 ## Results and discussions
 
 ## Conclusions
+{% endraw %}
 
 ```
 
@@ -107,4 +109,4 @@ tags:
 
 若是要自定义模板，可前往 (<https://argentinaos.com/zotero-mdnotes/docs/placeholders/#item-placeholders>) 和（<https://api.zotero.org/itemFields?pprint=1> ）查看还有什么占位符可用。
 
-注意，使用 `{{}}`,mdnotes 会自动生成格式，若是想要不带格式的话，请使用 `%()`。
+注意，使用 `{% raw %}{{}}{% endraw %}`,mdnotes 会自动生成带有格式的内容，若是想要不带格式的话，请使用 `%()`替代模板内容中的`{% raw %}{{}}{% endraw %}`。
